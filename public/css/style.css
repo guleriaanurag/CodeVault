@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.br-20{
+    border-radius: 20px;
+}
+
+body{
+    background-color: #1d5c65;
+}
+
+.info{
+    height: 55px;
+    background-color: #052947;
+    color: #16bfd9;
+    font-size: 30px;
+    text-align: center;
+}
+
+.passOut{
+    margin-top: 50px;
+    margin-left: 16vw;
+    width: 70vw;
+    height: 13vh;
+    border: 2px solid black;
+    position: relative;
+    background-color: #f0f8ff;
+    border-radius: 20px;
+}
+
+#generatedPass{
+    outline: none;
+    border: 0;
+    width: 65vw;
+    height: 6.5vh;
+    margin: 22px;
+    background-color: #f0f8ff;
+    text-align: center;
+    color: black;
+}
+
+.parameters{
+    margin: 20px;
+    margin-left: 16vw;
+    width: 70vw;
+    border: 1px solid grey;
+    text-align: center;
+    background-color: #f0f8ff;
+    border-radius: 20px;
+}
+
+.checkboxes{
+    margin: 5px auto;
+}
+
+.checkboxes tr td{
+    padding: 20px;
+    text-align: left;
+}
+
+.genPass{
+    padding: 5px;
+    margin-bottom: 10px;
+}
