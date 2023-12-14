@@ -27,8 +27,6 @@ function generatePass(e) {
         sliderVal.innerText = this.value;
     }
 
-
-
     passOut.addEventListener('click', () => {
         navigator.clipboard.writeText(passOut.value);
         window.alert('text copied');
