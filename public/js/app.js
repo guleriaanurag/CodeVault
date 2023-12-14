@@ -31,7 +31,7 @@ function generatePass(e) {
 
     passOut.addEventListener('click', () => {
         navigator.clipboard.writeText(passOut.value);
-        alert('Copied text');
+        window.alert('text copied');
     })
 
     let lower = "abcdefghijklmnopqrstuvwxyz";
